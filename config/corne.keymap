@@ -15,7 +15,7 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -26,7 +26,6 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-//TODO: add mod-tap behaviour (home-row mods)
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  | Y/Z | ]/Ü | '/Ä |
 // | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  | ;/Ö | G A C S home row mods
