@@ -22,7 +22,7 @@
 //                    | ESC | LWR and TAB | SPC |   | BSPC | RSE and RET  | DEL |
                         bindings = <
    &kp CARET   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Z   &kp LBKT    &kp SQT
-   &kp LCTRL &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G   &kp M &mt RSHFT N  &mt LCTRL E     &mt RALT I   &mt RGUI O   &kp SEMI
+   &kp LCTRL &ht_tp LGUI A &ht_tp LALT R &ht_tp LCTRL S &ht_tp LSHFT T &kp G   &kp M &ht_tp RSHFT N  &ht_tp LCTRL E     &ht_tp RALT I   &ht_tp RGUI O   &kp SEMI
    &kp LSHFT &kp Y &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH    &trans
                   &kp ESC &lt 1 TAB &kp SPACE   &kp BSPC &lt 2 RET &kp DEL
                         >;
